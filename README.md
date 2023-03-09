@@ -1,5 +1,5 @@
 # swayTurnOnOffTouchpad.sh
-Turn on/off touchpad by the specified keybinding in Sway
+Turn on/off touchpad by the specified keybinding in Sway conf.
 
 # Explanation
 Ever tired of disruption from touchpad when you're in a laptop doing some text heavy tasks.

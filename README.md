@@ -1,6 +1,20 @@
 # swayTurnOnOffTouchpad.sh
 Turn on/off touchpad by the specified keybinding in Sway conf.
 
+# Note
+This script stops to be used by me, as I've found an easy way to turn on/off touchpad just by one-liner in sway conf.
+
+For example:
+bindsym $mod+z input type:touchpad events toggle enabled disabled
+
+Bounus:
+
+If you find that the touchpad suddenly needs to move cursor by two or more than one fingers, it's basically a bug upstream outside of sway and wlroots, it's a libinput problem.
+
+You need to switch to another tty and then switch back to sway to let this issue disappear by Ctrl+Alt+F5 to tty5 for instance and back to the tty where sway is at, as a workaround.
+
+Relevant github issue post: https://github.com/swaywm/sway/issues/7090
+
 # Explanation
 Ever tired of disruption from touchpad when you're in a laptop doing some text heavy tasks?
 

@@ -2,7 +2,7 @@
 Turn on/off touchpad by the specified keybinding in Sway conf.
 
 # Note: This script will probably not be updated as there is a more easy way existing
-This script stops to be used by me, as I've found an easy way to turn on/off touchpad just by one-liner in sway conf.
+This script stopped to be used by me, as I've found an easy way to turn on/off touchpad just by one-liner in sway conf.
 
 For example:
 `bindsym $mod+z input type:touchpad events toggle enabled disabled`
